@@ -1,0 +1,91 @@
+.comment-form-container {
+    margin: 50px;
+    padding-left: 200px;
+    padding-right: 700px;
+}
+
+.comment-form {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.comment-submit-btn {
+    margin-top: 20px;
+}
+
+/*COMENTARIOS*/
+.comment-list li img {
+    max-width: 500px; /* Define el ancho máximo para las imágenes */
+    height: auto; /* Permite que la altura de las imágenes se ajuste automáticamente */
+    width: auto;
+    display: block; /* Evita el espacio adicional debajo de las imágenes */
+    border-radius: 4%;
+    border-bottom: 20px;
+}
+/*espacio de los comentarios*/
+.coments{
+    margin: 50px;
+    padding-left: 100px;
+    border-radius: 10px;
+}
+/*imagen de comentarios*/
+.img-fluid{
+    margin:30px;
+}
+/*Nombre de los comentarios*/
+.commentName{
+    padding-left: 10px;
+}
+
+/* Contenedor del post */
+.post-container {
+    margin: 60px;
+
+}
+
+/* Título del post */
+.post-title {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Contenido del post */
+.post-content {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+/* Imagen del post */
+.post-image {
+    max-width: 100%;
+    max-height: 500px; /* Limita la altura máxima de la imagen */
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    border-radius: 1%;
+    
+}
+.floatButton{
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+.floatButton:hover{
+    box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
+}
+.container {
+    background-color: var(--bs-body-bg); /* Fondo del contenedor */
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.footers{
+    padding-left: 100px;
+}
